@@ -16,9 +16,9 @@ Use the following commands to get the game running
 ```
 git clone https://github.com/wmellema/ScautingGame.git
 cd ScautingGame
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 cd Code
-python Start.py
+python3 Start.py
 ```
 ## Assignment
 
