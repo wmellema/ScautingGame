@@ -41,11 +41,7 @@ class Hero(TileHeroCharacter):
                     If this is difficult: ask!
                     =================================
                     '''
-                    self.hazard_touched_method(self)
-                    # check_horizontal = False
-                    collisions = []
-                    break
-                    # pass
+                    pass
 
         self.desired_position = self.coords
 
@@ -72,13 +68,9 @@ class Hero(TileHeroCharacter):
     def __handle_input(self, milliseconds):
         if r.Ragnarok.get_world().Keyboard.is_down(pygame.K_RIGHT):
             self.desired_position += r.Vector2(self.run_speed * (milliseconds / 1000.0), 0)
-        if r.Ragnarok.get_world().Keyboard.is_down(pygame.K_LEFT):
-            self.desired_position -= r.Vector2(self.run_speed * (milliseconds / 1000.0), 0)
-
-            '''
-            Code for going left. TIP! Inverse of right!
-            '''
-            # pass
+        '''
+        Code for going left. TIP! Inverse of right!
+        '''
 
         if r.Ragnarok.get_world().Keyboard.is_down(pygame.K_UP):
             if self.CURRENT_STATE != self.JUMPING_STATE:

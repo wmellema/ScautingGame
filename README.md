@@ -14,7 +14,7 @@ terminal emulator
 
 Use the following commands to get the game running
 ```
-git clone git@github.com:wmellema/ScautingGame.git
+git clone https://github.com/wmellema/ScautingGame.git
 cd ScautingGame
 pip install -r requirements.txt
 cd Code
