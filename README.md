@@ -25,7 +25,7 @@ python3 Start.py
 The current version of this game has no horizontal hazards, and you cannot move left yet.
 These 'bugs' will need to be fixed.
 
-You can find the corresponding code blocks in Hero.py, on lines 38 and 78.
+You can find the corresponding code blocks in Hero.py, on lines 38 and 72.
 Once you're done with the assignment, you can create your own level in Maps/_Level0_/ using the other levels as reference.
 
 # Good luck and have fun!
